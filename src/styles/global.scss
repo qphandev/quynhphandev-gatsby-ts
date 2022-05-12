@@ -1,0 +1,93 @@
+// Vars
+$main-blue: #417ee8;
+$main-yellow: #fdf777;
+
+$lightgray: #f3f3f3;
+
+$desktop-width: 70%;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    min-height: 100vh;
+    width: $desktop-width;
+    margin: 3rem auto;
+}
+
+// HEADER
+// =========================
+header {
+    background: $main-blue;
+    height: 15rem;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+    .header-content {
+        width: $desktop-width;
+
+        >* {
+            margin: 2rem 0;
+        }
+
+        h2 {
+            font-weight: lighter;
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+        }
+
+        .separator-yellow {
+            background-color: $main-yellow;
+            width: 2rem;
+            height: 0.3rem;
+        }
+    }
+}
+
+nav {
+    width: $desktop-width;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    a {
+        padding: 1rem;
+        width: 6rem;
+        height: 1rem;
+        text-align: center;
+    }
+
+    .active-nav {
+        background-color: $main-blue;
+        color: white;
+    }
+}
+
+footer {
+    background: $main-blue;
+    height: 10rem;
+}
+
+// PROJECTS
+// =========================
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}

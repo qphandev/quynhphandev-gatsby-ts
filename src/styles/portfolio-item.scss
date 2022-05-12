@@ -1,0 +1,32 @@
+.portfolio-item-container {
+    height: 20rem;
+    width: 100%;
+
+    .portfolio-item-image {
+        background-color: lightblue;
+        height: 60%;
+    }
+
+    .portfolio-item-description {
+        background-color: lightgreen;
+        height: 40%;
+        padding: .5rem;
+
+        & .title {
+            color: blue;
+            height: 15%;
+            background: green;
+        }
+        & .summary {
+            height: 75%;
+            background: yellow;
+        }
+        & .tags-container {
+            height: 10%;
+            background: lightgray;
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+}

@@ -1,7 +1,8 @@
 import React from 'react'
-
 import '../styles/portfolio-item.scss';
 import Tag from './Tag';
+import { StaticImage } from "gatsby-plugin-image"
+// import knightgame_thumbnail from "../images/knightgame_thumbnail.png";
 
 /**
  * Title, date, summary, stack or tags...?
@@ -11,7 +12,7 @@ function PortfolioItem() {
     return (
         <div className="portfolio-item-container">
             <div className="portfolio-item-image">
-                <img src={} alt="knightgame thumbnail" />
+                <ThumbnailImage />
             </div>
             <div className="portfolio-item-description">
                 <h2 className="title">Some title</h2>
@@ -22,6 +23,10 @@ function PortfolioItem() {
             </div>
         </div>
     )
+}
+
+export function ThumbnailImage () {
+    return <StaticImage src="../images/knightgame_thumbnail.png" alt="Thumbnail" />
 }
 
 export default PortfolioItem

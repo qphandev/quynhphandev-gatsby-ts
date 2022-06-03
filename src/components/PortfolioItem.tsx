@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/portfolio-item.scss';
 import Tag from './Tag';
-import { StaticImage } from "gatsby-plugin-image"
-// import knightgame_thumbnail from "../images/knightgame_thumbnail.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 /**
  * Title, date, summary, stack or tags...?

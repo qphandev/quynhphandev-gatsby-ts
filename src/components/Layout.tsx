@@ -12,12 +12,14 @@ interface ILayoutProps {
 const Layout = ({children}: ILayoutProps) => {
     return (
         <div className="layout">
+            {/* HEADER */}
             <Header />
 
             <main className="main-content">
                 { children }
             </main>
 
+            {/* FOOTER */}
             <Footer />
         </div>
     )

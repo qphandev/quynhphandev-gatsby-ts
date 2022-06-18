@@ -10,6 +10,7 @@ const config: GatsbyConfig = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images,
+    `gatsby-plugin-typegen`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -25,7 +26,7 @@ const config: GatsbyConfig = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 100,
             },
           },
           `gatsby-remark-static-images`],
@@ -38,7 +39,21 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/projects-markdowns`,
       },
     },
-  ]
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `thumbnails`,
+        path: `${__dirname}/src/projects-markdowns/thumbnails`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    }
+  ],
 };
 
 export default config;

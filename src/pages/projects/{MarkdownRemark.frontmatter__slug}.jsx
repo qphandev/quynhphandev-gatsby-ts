@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
+import '../../styles/projectpage.scss'
+import { Link } from "gatsby"
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -7,9 +9,10 @@ export default function Template({
 	const { markdownRemark } = data // data.markdownRemark holds your post data
 	const { frontmatter, html } = markdownRemark
 	return (
-		<div className="blog-post-container">
+		<div className="project-page-container">
+			<div className="sticky-nav"><Link className="sticky-link" to='/'>← back</Link></div>
 			<div className="blog-post">
-				<h1>{frontmatter.title} holy fuck</h1>
+				<h1>{frontmatter.title}</h1>
 				<div
 					className="blog-post-content"
 					dangerouslySetInnerHTML={{ __html: html }}

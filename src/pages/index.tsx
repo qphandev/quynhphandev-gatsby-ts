@@ -20,7 +20,7 @@ interface IProjectsProps {
 					slug: string,
 					date: string,
 					thumb: {
-						childrenImageSharp: {
+						childImageSharp: {
 							gatsbyImageData: IGatsbyImageData
 						}
 					},
@@ -39,19 +39,20 @@ const Projects = ({ data }: IProjectsProps) => {
 		<Layout>
 			<div className="projects-grid-container">
 				{projectNodes.map((project, index) => {
+					console.log(project.frontmatter.thumb.childImageSharp.gatsbyImageData);
 					return (
-						// <PortfolioItem
-						// 	key={`portfolio-item-${index}`}
-						// 	title={project.frontmatter.title}
-						// 	subtitle={project.frontmatter.subtitle}
-						// 	slug={project.frontmatter.slug}
-						// 	date={project.frontmatter.date}
-						// 	thumb={
-						// 		<GatsbyImage image={project.frontmatter.thumb.childrenImageSharp.fluid} alt='temp' />
-						// 	}
-						// 	summary={project.frontmatter.summary}
-						// />
-						<GatsbyImage image={project.frontmatter.thumb.childrenImageSharp.gatsbyImageData} alt='temp' />
+						<PortfolioItem
+							key={`portfolio-item-${index}`}
+							title={project.frontmatter.title}
+							subtitle={project.frontmatter.subtitle}
+							slug={project.frontmatter.slug}
+							date={project.frontmatter.date}
+							thumb={
+								<GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt='temp' />
+							}
+							summary={project.frontmatter.summary}
+						/>
+						
 					)
 				})}
 			</div>
@@ -72,9 +73,14 @@ query MyQuery {
 			date
 			summary
 			thumb {
-			  childrenImageSharp {
-				gatsbyImageData
-			  }
+				childImageSharp {
+					gatsbyImageData (
+						width: 320
+						height: 192
+						placeholder: BLURRED
+						formats: [AUTO]
+			  		)
+				}
 			}
 		  }
 		}

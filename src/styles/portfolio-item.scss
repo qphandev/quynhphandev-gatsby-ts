@@ -1,29 +1,42 @@
+@import 'variables.scss';
+
 .portfolio-item-container {
-    height: 20rem;
+    height: 320px;
     width: 100%;
+    background-color: $lightgray;
+
+    display: flex;
+    flex-direction: column;
 
     .portfolio-item-image {
-        background-color: lightblue;
         height: 60%;
     }
 
     .portfolio-item-description {
-        background-color: lightgreen;
         height: 40%;
         padding: .5rem;
+        background-color: $lightgray;
+
+        & > * {
+            max-width: 300px;
+        }
 
         & .title {
-            color: blue;
-            height: 15%;
-            background: green;
+            color: rgb(72, 121, 255);
+            font-weight: 100;
+            font-size: 1.4rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         & .summary {
-            height: 75%;
-            background: yellow;
+            height: 61%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: rgb(65, 65, 65);
         }
         & .tags-container {
-            height: 10%;
-            background: lightgray;
+            height: 20%;
             display: flex;
             align-items: center;
         }

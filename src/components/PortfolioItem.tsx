@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/portfolio-item.scss';
 import Tag from './Tag';
-import { GatsbyImage, GatsbyImageProps, StaticImage } from "gatsby-plugin-image";
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 /**
  * Title, date, summary, stack or tags...?
@@ -25,41 +24,21 @@ function PortfolioItem({ title,
 
     // const image = `../images/${thumb}`
     return (
-        <Link to={`/projects/${slug}`}>
-            <div className="portfolio-item-container">
+        <div className="portfolio-item-container">
+            <Link to={`/projects/${slug}`}>
                 <div className="portfolio-item-image">
-
-                    
+                    {thumb}
                 </div>
-                <div className="portfolio-item-description">
-                    <h2 className="title">{title}</h2>
-                    <div className="summary">{summary}</div>
-                    <div className="tags-container">
-                        <Tag />
-                    </div>
+            </Link>
+            <div className="portfolio-item-description">
+                <Link to={`/projects/${slug}`}><h2 className="title">{title}</h2></Link>
+                <div className="summary">{summary}</div>
+                <div className="tags-container">
+                    <Tag />
                 </div>
             </div>
-        </Link>
+        </div>
     )
 }
 
 export default PortfolioItem
-
-// export const pageQuery = graphql`
-//   query {
-//     blogPost(id: { eq: $Id }) {
-//       title
-//       body
-//       author
-//       avatar {
-//         childImageSharp {
-//           gatsbyImageData(
-//             width: 200
-//             placeholder: BLURRED
-//             formats: [AUTO, WEBP, AVIF]
-//           )
-//         }
-//       }
-//     }
-//   }
-// `

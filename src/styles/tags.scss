@@ -2,16 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-radius: .5rem;
-    height: 1.3rem;
-    width: 3rem;
-
-    margin: .3rem;
-
+    border-radius: 8px;
+    height: 21px;
+    width: 58px;
+    margin: 8px 3px;
     text-align: center;
-    background-color: blue;
+    background-color: teal;
     color: white;
-
-    font-size: .7rem;
+    font-size: 0.7rem;
+    font-weight: bolder;
 }

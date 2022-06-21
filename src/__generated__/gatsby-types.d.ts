@@ -3564,10 +3564,5 @@ type WebPOptions = {
   readonly quality: InputMaybe<Scalars['Int']>;
 };
 
-type MyQueryQueryVariables = Exact<{ [key: string]: never; }>;
-
-
-type MyQueryQuery = { readonly allMarkdownRemark: { readonly nodes: ReadonlyArray<{ readonly frontmatter: { readonly title: string | null, readonly subtitle: string | null, readonly stack: string | null, readonly slug: string | null, readonly date: string | null, readonly summary: string | null, readonly thumb: { readonly childrenImageSharp: ReadonlyArray<{ readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null> | null } | null } | null }> } };
-
 
 }

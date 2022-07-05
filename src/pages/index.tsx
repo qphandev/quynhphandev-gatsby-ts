@@ -75,10 +75,10 @@ query MyQuery {
 			thumb {
 				childImageSharp {
 					gatsbyImageData (
-						width: 320
+						width: 300
 						height: 192
 						placeholder: BLURRED
-						formats: [AUTO]
+						formats: [WEBP]
 			  		)
 				}
 			}

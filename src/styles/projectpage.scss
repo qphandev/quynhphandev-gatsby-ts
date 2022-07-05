@@ -2,24 +2,31 @@
 
 .project-page-container {
 
-    .text-wrap-center {
+    .project-content-container {
+        min-height: 100vh;
+    }
+
+    // Title and subtitle of project
+    .project-header-container {
         display: flex;
-        margin: auto;
-        max-width: 20rem;
-        flex-wrap: wrap;
-        text-align: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin: 24px 0;
+
+        #project-header {
+            font-size: 2.5rem;
+        }
+
+        #project-sub-header {
+            color: gray;
+            font-weight: 100;
+            font-size: 1.4em;
+        }
     }
 
-    #project-header {
-        font-size: 2.5rem;
-    }
 
-    #project-sub-header {
-        font-size: 1.5rem;
-        color: gray;
-    }
-
+    // Add to div displaying gray background, usually summaries of your project
     .text-body {
         background-color: $lightgray;
         padding: 13px;
@@ -28,6 +35,31 @@
         margin: auto;
     }
 
+    .image-body {
+        // Vars
+        $largeImageSize: 80vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 24px auto;
+
+        figcaption {
+            align-self: flex-start;
+        }
+
+        // Image content size
+        &-large {
+            max-width: $largeImageSize;
+
+            img {
+                max-width: $largeImageSize;
+            }
+        }
+    }
+
+    // Sticky nav on top with home button
     .sticky-nav {
         padding: 0.5rem;
         background-color: #417ee8;
@@ -40,6 +72,7 @@
 
         & .sticky-link {
             color: $main-yellow;
+
             &:hover {
                 color: white;
             }

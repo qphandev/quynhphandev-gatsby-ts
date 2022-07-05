@@ -27,6 +27,7 @@
     "gatsby-plugin-sharp": "^4.14.1",
     "gatsby-plugin-typegen": "^3.0.0",
     "gatsby-remark-images": "^6.15.1",
+    "gatsby-remark-relative-images": "^1.1.1",
     "gatsby-remark-static-images": "^1.2.1",
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-transformer-remark": "^5.15.1",

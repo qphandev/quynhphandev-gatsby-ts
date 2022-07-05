@@ -25,17 +25,14 @@ function PortfolioItem({ title,
     // const image = `../images/${thumb}`
     return (
         <div className="portfolio-item-container">
-            <Link to={`/projects/${slug}`}>
-                <div className="portfolio-item-image">
+            <div className="portfolio-item-image">
+                <Link to={`/projects/${slug}`}>
                     {thumb}
-                </div>
-            </Link>
+                </Link>
+            </div>
             <div className="portfolio-item-description">
                 <Link to={`/projects/${slug}`}><h2 className="title">{title}</h2></Link>
                 <div className="summary">{summary}</div>
-                <div className="tags-container">
-                    <Tag />
-                </div>
             </div>
         </div>
     )

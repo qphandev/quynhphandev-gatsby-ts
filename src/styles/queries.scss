@@ -9,11 +9,9 @@
 
 
 @media screen and (max-width: 1340px) {
-    
-    
     // Projects Grid Container
     .projects-grid-container {
-        grid-template-columns: repeat(3, 20rem);
+        grid-template-columns: repeat(3, 300px);
     }
 }
 
@@ -22,7 +20,7 @@
     
     // Projects Grid Container
     .projects-grid-container {
-        grid-template-columns: repeat(2, 20rem);
+        grid-template-columns: repeat(2, 300px);
     }
 }
 
@@ -30,6 +28,6 @@
     
     // Projects Grid Container
     .projects-grid-container {
-        grid-template-columns: repeat(1, 20rem);
+        grid-template-columns: repeat(1, 300px);
     }
 }

@@ -1,5 +1,6 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react'
+import Footer from '../../components/Footer';
 
 import knightgame_gif from "../../images/knightgames_homepage_tour.gif";
 
@@ -19,7 +20,6 @@ const ProjectsMain = () => {
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit modi iste aliquam tempora maiores? Quae placeat hic commodi illo porro, rem vel veniam molestias incidunt fugiat modi excepturi fugit!</p>
 				<img src={knightgame_gif} alt="" />
 			</div>
-
 		</div>
 	)
 }

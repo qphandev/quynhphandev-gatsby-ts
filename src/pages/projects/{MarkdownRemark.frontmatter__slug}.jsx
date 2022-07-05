@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import Footer from '../../components/Footer';
+
 import '../../styles/projectpage.scss'
-import { Link } from "gatsby"
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.
@@ -11,13 +12,18 @@ export default function Template({
 	return (
 		<div className="project-page-container">
 			<div className="sticky-nav"><Link className="sticky-link" to='/'>← home</Link></div>
-			<div className="blog-post">
-				<h1>{frontmatter.title}</h1>
+			<div className="project-content-container">
+
+				<div className="project-header-container">
+					<h1 id="project-header">{frontmatter.title}</h1>
+					<h2 id="project-sub-header">{frontmatter.subtitle}</h2>
+				</div>
+
 				<div
-					className="blog-post-content"
 					dangerouslySetInnerHTML={{ __html: html }}
 				/>
 			</div>
+			<Footer />
 		</div>
 	)
 }
@@ -29,6 +35,7 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
+		subtitle
       }
     }
   }

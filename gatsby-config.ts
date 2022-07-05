@@ -3,7 +3,8 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `quynhphan.dev`,
-    siteUrl: `https://quynhphan.dev`
+    siteUrl: `https://quynhphan.dev`,
+    description: "God, Gatsby was a pain to learn and I still barely know it."
   },
   plugins: [
     `gatsby-plugin-sass`,

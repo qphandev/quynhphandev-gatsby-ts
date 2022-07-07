@@ -1,26 +1,19 @@
 ---
 title: Gamers Inc 2016 Black Friday Flyer
-subtitle: Designed and coded website, collapse/expand JS script
-stack: HTML, CSS, PHP, JS
-slug: website-getfit
-date: April 26, 2017
+subtitle: Done in GIMP
+stack: GIMP
+slug: gimp-gamersinc-flyer
+date: November 1, 2016
 thumb: thumbnails/gimp_gamersinc_flyer_thumb.png
-summary:  Designed and coded website, collapse/expand JS script
+summary: Done in GIMP
 ---
-
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
+    <img src="./assets/gimp-gamersinc-flyer/gamersinc_flyer_thumbnail.png" alt="black friday sale 2016 flyer gamersinc" class="large-image" />
 </figure>
 
 <div class="text-body">
     <h3>Summary</h3>
     <p>
-        An educational platform for health and fitness. A class project.
-        I wrote my first frontend script from scratch in Javascript. It was a simple expand/collapse script, learned a lot on how to manipulate the DOM.
+        My first graphic design project for a local game store.
     </p>
 </div>
-
-<figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-collapse-script.gif" alt="collapse/expand script showcase" class="large-image" />
-    <figcaption>Healthy recipes expand and collapses on click</figcaption>
-</figure>

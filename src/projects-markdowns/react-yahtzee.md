@@ -1,26 +1,23 @@
 ---
-title: Small Angular Projects
-subtitle: Designed and coded website, collapse/expand JS script
-stack: HTML, CSS, PHP, JS
-slug: website-getfit
-date: April 26, 2017
+title: Yahtzee with React
+subtitle: A learning project for React
+stack: HTML, CSS, React
+slug: react-yahtzee
+date: September 1, 2020
 thumb: thumbnails/react_yahtzee_thumb.png
-summary:  Designed and coded website, collapse/expand JS script
+summary: A learning project for React
 ---
-
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
+    <img src="./assets/react-yahtzee/diceGame_demonstration.gif" alt="yahtzee dice" class="large-image" />
 </figure>
 
 <div class="text-body">
     <h3>Summary</h3>
     <p>
-        An educational platform for health and fitness. A class project.
-        I wrote my first frontend script from scratch in Javascript. It was a simple expand/collapse script, learned a lot on how to manipulate the DOM.
+        Try to get all matching rolls to win(e.g. all die must be the same number face)
+        <br />
+        It drove me kind of nuts when components didn't render after their props were updated along with all sorts of bugs in my code. My main struggle was merging my logic with React syntax and behavior that I knew little about.
+        <br />
+        Source code: https://github.com/qphandev/dice_game
     </p>
 </div>
-
-<figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-collapse-script.gif" alt="collapse/expand script showcase" class="large-image" />
-    <figcaption>Healthy recipes expand and collapses on click</figcaption>
-</figure>

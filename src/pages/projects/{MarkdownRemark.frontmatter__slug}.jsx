@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Footer from '../../components/Footer';
 
 import '../../styles/projectpage.scss'
+import '../../styles/queries.scss'
 
 export default function Template({
 	data, // this prop will be injected by the GraphQL query below.

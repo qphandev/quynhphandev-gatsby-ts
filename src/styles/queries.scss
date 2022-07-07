@@ -13,6 +13,13 @@
     .projects-grid-container {
         grid-template-columns: repeat(3, 300px);
     }
+
+    // Individual Project Page
+    .project-page-container {
+        .text-body {
+            width: 510px;
+        }
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +29,13 @@
     .projects-grid-container {
         grid-template-columns: repeat(2, 300px);
     }
+
+    // Individual Project Page
+    .project-page-container {
+        .text-body {
+            width: 460px;
+        }
+    }
 }
 
 @media screen and (max-width: 682px) {
@@ -29,5 +43,12 @@
     // Projects Grid Container
     .projects-grid-container {
         grid-template-columns: repeat(1, 300px);
+    }
+
+    // Individual Project Page
+    .project-page-container {
+        .text-body {
+            width: 410px;
+        }
     }
 }

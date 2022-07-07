@@ -1,5 +1,4 @@
 @import "./variables.scss";
-
 .project-page-container {
 
     .project-content-container {
@@ -29,10 +28,16 @@
     // Add to div displaying gray background, usually summaries of your project
     .text-body {
         background-color: $lightgray;
-        padding: 13px;
+        padding: 30px;
         line-height: 24px;
-        width: 80%;
+        width: 510px;
         margin: auto;
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 100;
+            margin: 10px 0 20px 0;
+        }
     }
 
     .image-body {

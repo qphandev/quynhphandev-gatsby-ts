@@ -7,7 +7,6 @@ date: April 26, 2017
 thumb: thumbnails/website_getfit_thumb.png
 summary:  Designed and coded website, collapse/expand JS script
 ---
-
 <figure class="image-body image-body-large">
     <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
 </figure>

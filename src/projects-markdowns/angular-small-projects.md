@@ -1,26 +1,25 @@
 ---
 title: Small Angular Projects
-subtitle: Designed and coded website, collapse/expand JS script
-stack: HTML, CSS, PHP, JS
-slug: website-getfit
-date: April 26, 2017
+subtitle: Typing game, pagination, etc
+stack: Angular
+slug: angular-small-projects
+date: July 1, 2020
 thumb: thumbnails/angular_small_projects_thumb.png
-summary:  Designed and coded website, collapse/expand JS script
+summary: Typing game, pagination, etc
 ---
-
-<figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
-</figure>
-
 <div class="text-body">
     <h3>Summary</h3>
     <p>
-        An educational platform for health and fitness. A class project.
-        I wrote my first frontend script from scratch in Javascript. It was a simple expand/collapse script, learned a lot on how to manipulate the DOM.
+        A list of small Angular projects.
     </p>
 </div>
 
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-collapse-script.gif" alt="collapse/expand script showcase" class="large-image" />
-    <figcaption>Healthy recipes expand and collapses on click</figcaption>
+    <img src="./assets/angular-small-projects/angular_pagination.gif" alt="Angular pagination" class="large-image" />
+    <figcaption>Pagination made with Bootstrap UI framework and Angular</figcaption>
+</figure>
+
+<figure class="image-body image-body-large">
+    <img src="./assets/angular-small-projects/angular_typinggame.gif" alt="Angular typing game" class="large-image" />
+    <figcaption>Typing game with randomly generated dumb phrases</figcaption>
 </figure>

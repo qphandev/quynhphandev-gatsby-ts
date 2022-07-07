@@ -1,26 +1,27 @@
 ---
 title: Robot Creation
-subtitle: Designed and coded website, collapse/expand JS script
+subtitle: Experimental AJAX and CSS Canvas create a robot project
 stack: HTML, CSS, PHP, JS
-slug: website-getfit
+slug: app-robot-creation
 date: April 26, 2017
 thumb: thumbnails/app_robot_creation_thumb.png
-summary:  Designed and coded website, collapse/expand JS script
+summary: Experimental AJAX and CSS Canvas create a robot project
 ---
 
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
+    <img src="./assets/app-robot-creation/header-image.png" alt="robot drawing" class="large-image" />
 </figure>
 
 <div class="text-body">
     <h3>Summary</h3>
     <p>
-        An educational platform for health and fitness. A class project.
-        I wrote my first frontend script from scratch in Javascript. It was a simple expand/collapse script, learned a lot on how to manipulate the DOM.
+        A silly little project using Materialize, AJAX, PHP, and CSS Canvas. User can "make" their own robots appearance by filling in the fields.
+        <br />
+        I wanted to make something interactive and visualize OOP.
     </p>
 </div>
 
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-collapse-script.gif" alt="collapse/expand script showcase" class="large-image" />
-    <figcaption>Healthy recipes expand and collapses on click</figcaption>
+    <img src="./assets/app-robot-creation/robot_creation_tour.gif" alt="robot drawing" class="large-image" />
+    <figcaption>Input shapes and colors of the robots part. You can even name it!</figcaption>
 </figure>

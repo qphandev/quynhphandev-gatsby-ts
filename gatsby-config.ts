@@ -55,10 +55,6 @@ const config: GatsbyConfig = {
       },
     }
   ],
-};
-
-module.exports = {
-  pathPrefix: "/quynhphandev-gatsby-ts"
 }
 
 export default config;

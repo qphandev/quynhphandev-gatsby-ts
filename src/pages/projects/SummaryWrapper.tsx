@@ -8,7 +8,6 @@ interface ISummaryWrapperProps {
     description: string
 }
 
-
 function SummaryWrapper({description, title, subtitle}: ISummaryWrapperProps) {
     return (
         <>

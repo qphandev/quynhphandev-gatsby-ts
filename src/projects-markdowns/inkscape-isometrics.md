@@ -1,26 +1,24 @@
 ---
 title: Inkscape Isometrics
-subtitle: Designed and coded website, collapse/expand JS script
-stack: HTML, CSS, PHP, JS
-slug: website-getfit
-date: April 26, 2017
+subtitle: Isometrics objects made in Inkscape
+stack: Inkscape
+slug: inkscape-isometrics
+date: January 1, 2019
 thumb: thumbnails/inkscape_isometrics_thumb.png
-summary:  Designed and coded website, collapse/expand JS script
+summary: Isometrics objects made in Inkscape
 ---
-
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-homepage-tour.gif" alt="getfit website tour" class="large-image" />
+    <img src="./assets/inkscape-isometrics/devices_final.svg" alt="drawing of laptop, ipad, and iphone" class="large-image" />
 </figure>
 
 <div class="text-body">
     <h3>Summary</h3>
     <p>
-        An educational platform for health and fitness. A class project.
-        I wrote my first frontend script from scratch in Javascript. It was a simple expand/collapse script, learned a lot on how to manipulate the DOM.
+        Isometrics objects made in Inkscape.
     </p>
 </div>
 
 <figure class="image-body image-body-large">
-    <img src="./assets/website-getfit/getfit-collapse-script.gif" alt="collapse/expand script showcase" class="large-image" />
-    <figcaption>Healthy recipes expand and collapses on click</figcaption>
+    <img src="./assets/inkscape-isometrics/isometric_devices.png" alt="inkscape program" class="large-image" />
+    <figcaption>The work table. There was a lot of flipping and turning and shaping involved.</figcaption>
 </figure>

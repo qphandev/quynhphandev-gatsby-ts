@@ -11,7 +11,6 @@
     "projects"
   ],
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -33,7 +32,6 @@
     "gatsby-source-filesystem": "^4.15.0",
     "gatsby-transformer-remark": "^5.15.1",
     "gatsby-transformer-sharp": "^4.14.0",
-    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.50.0"

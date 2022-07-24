@@ -28,12 +28,15 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            padding: 7px 0;
         }
         & .summary {
             height: 61%;
             overflow: hidden;
             text-overflow: ellipsis;
             color: rgb(65, 65, 65);
+            line-height: 23px;
+            font-size: 1.05rem;
         }
         & .tags-container {
             height: 20%;

@@ -21,6 +21,7 @@
             color: gray;
             font-weight: 100;
             font-size: 1.4em;
+            margin-top: 8px;
         }
     }
 
@@ -29,7 +30,7 @@
     .text-body {
         background-color: $lightgray;
         padding: 30px;
-        line-height: 24px;
+        line-height: 32px;
         width: 510px;
         margin: auto;
 
@@ -42,6 +43,8 @@
 
     .image-body {
         // Vars
+        $smallImageSize: 30vw;
+        $mediumImageSize: 50vw;
         $largeImageSize: 80vw;
 
         display: flex;
@@ -51,13 +54,24 @@
         margin: 24px auto;
 
         figcaption {
-            align-self: flex-start;
+            color: gray;
         }
 
         // Image content size
+        &-small {
+            max-width: $smallImageSize;
+            img {
+                max-width: $smallImageSize;
+            }
+        }
+        &-medium {
+            max-width: $mediumImageSize;
+            img {
+                max-width: $mediumImageSize;
+            }
+        }
         &-large {
             max-width: $largeImageSize;
-
             img {
                 max-width: $largeImageSize;
             }
@@ -66,7 +80,7 @@
 
     // Sticky nav on top with home button
     .sticky-nav {
-        padding: 0.5rem;
+        padding: 16px;
         background-color: #417ee8;
         display: flex;
         justify-content: center;
@@ -77,6 +91,7 @@
 
         & .sticky-link {
             color: $main-yellow;
+            font-size: 1.5rem;
 
             &:hover {
                 color: white;

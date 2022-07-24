@@ -30,7 +30,9 @@ const config: GatsbyConfig = {
               maxWidth: 100,
             },
           },
-          `gatsby-remark-static-images`],
+          `gatsby-remark-static-images`,
+          `gatsby-remark-unwrap-images`, // to unwrap images in figs
+        ],
       },
     },
     {

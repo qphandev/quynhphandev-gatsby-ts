@@ -7,9 +7,8 @@ date: November 1, 2016
 thumb: thumbnails/gimp_gamersinc_flyer_thumb.png
 summary: Done in GIMP
 ---
-<figure class="image-body image-body-large">
-    <img src="./assets/gimp-gamersinc-flyer/gamersinc_flyer_thumbnail.png" alt="black friday sale 2016 flyer gamersinc" class="large-image" />
-</figure>
+![black friday sale 2016 flyer gamersinc](./assets/gimp-gamersinc-flyer/gamersinc_flyer_thumbnail.png)
+
 
 <div class="text-body">
     <h3>Summary</h3>

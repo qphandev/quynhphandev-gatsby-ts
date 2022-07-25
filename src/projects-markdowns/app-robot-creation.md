@@ -8,9 +8,7 @@ thumb: thumbnails/app_robot_creation_thumb.png
 summary: Experimental AJAX and CSS Canvas create a robot project
 ---
 
-<figure class="image-body image-body-large">
-    <img src="./assets/app-robot-creation/header-image.png" alt="robot drawing" class="large-image" />
-</figure>
+![robot drawing](./assets/app-robot-creation/header-image.png)
 
 <div class="text-body">
     <h3>Summary</h3>

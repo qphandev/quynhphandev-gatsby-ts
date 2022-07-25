@@ -8,9 +8,7 @@ thumb: thumbnails/maya_models_thumb.jpg
 summary: Made in Maya
 ---
 
-<figure class="image-body image-body-large">
-    <img src="./assets/maya-models/renderedPencil.jpg" alt="3D blue pencil" class="large-image" />
-</figure>
+![3D blue pencil](./assets/maya-models/renderedPencil.jpg)
 
 <div class="text-body">
     <h3>Summary</h3>
@@ -23,7 +21,7 @@ summary: Made in Maya
     </p>
 </div>
 
+![corner of room with objects on desk](./assets/maya-models/mayaRenderFinal2.jpg)
 <figure class="image-body image-body-large">
-    <img src="./assets/maya-models/mayaRenderFinal2.jpg" alt="corner of room with objects on desk" class="large-image" />
     <figcaption>Post-apocalptic themed render with gathered objects I've made overtime.</figcaption>
 </figure>

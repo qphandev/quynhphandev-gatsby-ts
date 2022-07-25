@@ -1,4 +1,10 @@
 @import "./variables.scss";
+
+// Vars
+$smallImageSize: 30vw;
+$mediumImageSize: 50vw;
+$largeImageSize: 80vw;
+
 .project-page-container {
 
     .project-content-container {
@@ -25,14 +31,13 @@
         }
     }
 
-
     // Add to div displaying gray background, usually summaries of your project
     .text-body {
         background-color: $lightgray;
         padding: 30px;
         line-height: 32px;
         width: 510px;
-        margin: auto;
+        margin: 30px auto;
 
         h3 {
             font-size: 1.8rem;
@@ -42,11 +47,6 @@
     }
 
     .image-body {
-        // Vars
-        $smallImageSize: 30vw;
-        $mediumImageSize: 50vw;
-        $largeImageSize: 80vw;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -60,18 +60,23 @@
         // Image content size
         &-small {
             max-width: $smallImageSize;
+
             img {
                 max-width: $smallImageSize;
             }
         }
+
         &-medium {
             max-width: $mediumImageSize;
+
             img {
                 max-width: $mediumImageSize;
             }
         }
+
         &-large {
             max-width: $largeImageSize;
+
             img {
                 max-width: $largeImageSize;
             }

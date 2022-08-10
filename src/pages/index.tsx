@@ -48,7 +48,7 @@ const Projects = ({ data }: IProjectsProps) => {
 							slug={project.frontmatter.slug}
 							date={project.frontmatter.date}
 							thumb={
-								<GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt='temp' />
+								<GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt={project.frontmatter.title} />
 							}
 							summary={project.frontmatter.summary}
 						/>

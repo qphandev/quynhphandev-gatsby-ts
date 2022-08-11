@@ -6,8 +6,7 @@ export function isArrayMatched<T>(arrCheckedAgainst: Array<T>, arr: Array<T>): b
     else {
         for (let i = 0; i < arrCheckedAgainst.length; i++) {
             if (arr[i] !== arrCheckedAgainst[i]) return false;
-            return true;
         }
+        return true;
     }
-    return false;
 }

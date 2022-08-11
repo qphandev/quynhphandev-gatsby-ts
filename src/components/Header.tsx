@@ -16,7 +16,7 @@ const Header = () => {
                     <h2>Hiya, I'm Quynh</h2>
                     <div className="separator-yellow" />
                     <p>Welcome to my portfolio for Web Design and Development &#40;:</p>
-                    <Link to="/quynhphan_resume.pdf">RESUME</Link>
+                    <Link to={`/${process.env.PUBLIC_URL}/quynhphan_resume.pdf`}>RESUME</Link>
                     <div className="social-container">
                         <Link target="_blank" to="https://www.instagram.com/quynhs_here/"> <FaInstagram /> &nbsp; /quynhs_here </Link>
                         <Link target="_blank" to="https://github.com/qphandev"> <FaGithub /> &nbsp; /qphandev </Link>

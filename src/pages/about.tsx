@@ -1,15 +1,10 @@
-import React, { KeyboardEvent, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../components/Layout'
 import { Link } from 'gatsby';
-import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { StaticImage } from "gatsby-plugin-image"
-
-import "../styles/about.scss"
 import { isArrayMatched } from '../helpers/shallowCompareArray';
 
-
-const IMAGE_WIDTH = 800;
-const IMAGE_HEIGHT = 600;
+import "../styles/about.scss"
 
 export type MatchaMoodType = "sleepy" | "wild";
 

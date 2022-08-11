@@ -1,7 +1,15 @@
 .about-container {
 
+    p {
+        margin: 12px 0;
+    }
+    ul {
+        padding-left: 64px;
+    }
+
     .image-container {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 }

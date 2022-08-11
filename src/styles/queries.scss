@@ -1,14 +1,20 @@
 @media screen and (max-width: 600px) {
-    
+
     header {
 
-        // font-size: 20px;
-        
+        .header-content {
+            .social-container {
+                align-items: flex-start;
+            }
+        }
+
+
     }
 }
 
 
 @media screen and (max-width: 1340px) {
+
     // Projects Grid Container
     .projects-grid-container {
         grid-template-columns: repeat(3, 300px);
@@ -23,8 +29,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
-    
+
+
     // Projects Grid Container
     .projects-grid-container {
         grid-template-columns: repeat(2, 300px);
@@ -39,7 +45,7 @@
 }
 
 @media screen and (max-width: 682px) {
-    
+
     // Projects Grid Container
     .projects-grid-container {
         grid-template-columns: repeat(1, 300px);

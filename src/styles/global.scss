@@ -33,7 +33,7 @@ header {
     .header-content {
         width: $desktop-width;
 
-        >* {
+        > * {
             margin: 32px 0;
         }
 
@@ -44,12 +44,31 @@ header {
         a {
             color: white;
             font-weight: bold;
+
+            &:hover {
+                color: $main-yellow;
+            }
         }
 
         .separator-yellow {
             background-color: $main-yellow;
             width: 32px;
             height: 6px;
+        }
+
+        .social-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 4px 0;
+            a {
+                display: flex;
+                align-items: center;
+
+                svg {
+                    font-size: 24px;
+                }
+            }
         }
     }
 }
@@ -102,6 +121,4 @@ footer {
 
 // PROJECT PAGE
 // =========================
-.project-page-container {
-    
-}
+.project-page-container {}

@@ -52,10 +52,13 @@ const About = () => {
         <Layout>
             <div className="about-container">
                 <p>
-                    Hi! I'm Quynh. I'm a web developer who has experience with web technology (mostly frontend). I'm acquainted with design tools such as Adobe XD, Inkscape, and GIMP. Working directly with other developers has helped expose me to different approaches to problem solving. Currently, I'm learning C# with Unity and involving myself more with the backend web side of things. On the side, I’m also following along with the first half of Robert Nystrom’s “Crafting Interpreters” to explore more of how language works under the hood.
+                    Hi! I'm Quynh. I work as a frontend web developer. I'm acquainted with design tools such as Adobe XD, Inkscape, and GIMP. Working directly with other developers has helped expose me to different approaches to problem solving. Currently, I'm learning C# with Unity and involving myself more with the backend web side of things. On the side, I’m following along with the first half of Robert Nystrom’s “Crafting Interpreters” to explore more on how language works under the hood.
                 </p>
                 <p>
-                    Sometimes I find myself in a rut from fighting insecurities, imposter syndrome, indecisiveness, being stuck on a problem for too long, and/or loss of confidence. Participating in the community like going to Meetups, reading self-help books, talking to a friend, reading articles, listening to podcast, and keeping a log help me reflect and nudge me out of my immobility. I’m always open to learning new ways to actively stay engaged! Of course learning when to take breaks is important too.
+                    I enjoy going to Meetups, reading self-help books, talking to a friend, reading articles, listening to podcast, and keeping a log/diary to help me actively engage in understanding myself more. This helps me fight the insecurities, imposter syndrome, frustration, and/or loss of confidence that can arise from being stuck on a problem for too long.
+
+                    I’m always open to learning new ways to actively stay engaged! Of course learning when to take breaks is important too.
+
                 </p>
                 <p>
                     I’m working on getting out of my comfort zone. I think I will start by keeping a public dev log (coming soon!) to help me pursue this goal. The challenge after that is keeping consistent.

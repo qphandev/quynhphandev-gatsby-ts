@@ -1,6 +1,6 @@
 ## Notes:
 1. For some weird reason, media don't work in .md files if it's outside of its directory. 
-2. Sometimes I run into Segmentation Fault error (which isn't a very helpful error). The general solution to this is to delete the package lock file.
+2. Sometimes I run into Segmentation Fault error (which isn't a very helpful error). The general solution to this is to delete the package lock file. Alright... this is a really weird thing. Sometimes the fix is to simply run gatsby develop AGAIN after the error.
 
 ## TODOs:
 * Make this README an actual README instead of a todo list lol
